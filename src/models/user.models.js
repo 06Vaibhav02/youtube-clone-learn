@@ -69,5 +69,7 @@ userSchema.pre("save", async function (next) {
 //This middleware ensure that password only hashed during new user creation and password change
 
 
+
+
 export const User = mongoose.model("User", userSchema)
 //create model "User" in mongoDB with schema => userSchema

@@ -33,3 +33,5 @@ const likeSchema = new Schema(
     updatedAt: 10:30:00
 }
 */
+
+export const Like = mongoose.model("Like", likeSchema)
