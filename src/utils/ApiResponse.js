@@ -9,5 +9,5 @@ class ApiResponse {
 }
 
 export { ApiResponse }
-
+    
 // designed to help you handle resoonses in a structured and consistent way in APIs.
